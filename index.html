@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <!--* header -->
+    <style>
+      * {
+        margin: 0;
+      }
+      .header {
+        width: 100% !important;
+        height: 6rem !important;
+      }
+    </style>
+    <title>Reproductor de Audio</title>
+  </head>
+  <body>
+    <!--* header -->
+    <iframe
+      class="header"
+      src="./header/header.html"
+      frameborder="0"
+      scrolling="no"
+    ></iframe>
+
+    <!--_ Reproductor de audios -->
+    <div class="container">
+      <div class="listado-canciones">
+        <div class="cancion">
+          <div class="titulo">19th_Floor <small>(YouTube)</small></div>
+          <audio class="audio" controls src="./audios/19th_Floor.mp3"></audio>
+        </div>
+        <div class="cancion">
+          <div class="titulo">
+            Sympathy for the Devil <small>(The Rolling Stones)</small>
+          </div>
+          <div class="play" id="Simpatia_por_el_diablo">
+            <span class="material-icons"> play_circle </span>
+          </div>
+          <div class="stop">
+            <span class="material-icons"> cancel </span>
+          </div>
+          <div class="descargar">
+            <a href="./audios/Simpatia_por_el_diablo.mp3" download>
+              <span class="material-icons"> file_download </span>
+            </a>
+          </div>
+        </div>
+        <div class="cancion">
+          <div class="titulo">
+            The Thrill is Gone <small>(Eric Clapton & B.B. King)</small>
+          </div>
+          <div class="play" id="The_Thrill_is_Gone">
+            <span class="material-icons"> play_circle </span>
+          </div>
+          <div class="stop">
+            <span class="material-icons"> cancel </span>
+          </div>
+          <div class="descargar">
+            <a href="./audios/The_Thrill_is_Gone.mp3" download>
+              <span class="material-icons"> file_download </span>
+            </a>
+          </div>
+        </div>
+        <div class="cancion">
+          <div class="titulo">
+            Smoke on the Water <small>(Deep Purple)</small>
+          </div>
+          <div class="play" id="Smoke_on_the_Water">
+            <span class="material-icons"> play_circle </span>
+          </div>
+          <div class="stop">
+            <span class="material-icons"> cancel </span>
+          </div>
+          <div class="descargar">
+            <a href="./audios/Smoke_on_the_Water.mp3" download></a>
+            <span class="material-icons"> file_download </span>
+          </div>
+        </div>
+      </div>
+      <div class="volume">
+        <h6>Volumen de las canciones</h6>
+        <input type="range" max="1" min="0" step="0.1" class="volumen" />
+      </div>
+    </div>
+
+    <script src="assets/js/codigo.js"></script>
+  </body>
+</html>

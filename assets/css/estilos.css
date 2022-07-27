@@ -1,0 +1,44 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 70vw;
+  height: 60vh;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listado-canciones {
+  width: 100%;
+}
+.cancion {
+  padding: 1rem 0rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.titulo {
+  flex: 4;
+}
+.play,
+.stop,
+.descargar {
+  flex: 1;
+  cursor: pointer;
+  text-align: center; 
+}
+.audio {
+  flex: 3;
+}
+.volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+  gap: 15px;
+}
