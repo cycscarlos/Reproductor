@@ -1,4 +1,4 @@
-<h2>Voz recognition demo routine usign HTML, CSS & Javascript</h2>
+<h2>Music Player routine usign HTML, CSS & Javascript</h2>
 
 <br>
 
@@ -10,7 +10,7 @@
 
 <br>
 
-Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Reconocimiento-voz):
+Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Reproductor):
 
 <br>
 
