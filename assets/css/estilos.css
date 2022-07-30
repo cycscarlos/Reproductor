@@ -21,7 +21,7 @@ html {
   align-items: center;
 }
 .titulo {
-  flex: 4;
+  flex: 3;
 }
 .play,
 .stop,
