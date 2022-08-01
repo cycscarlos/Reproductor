@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap");
 
+/* Better Comments */
+/** Mostaza */
+/*: Verde */
+/*> Fucsia */
+/*! Rojo */
+/*_ Blanco */
+
 *,
 *::after,
 *::before {
@@ -22,6 +29,7 @@
 }
 body {
   margin: var(--header-height) 0 0 0;
+  /* background: var(--color-bg); */
 }
 header {
   width: 100%;
@@ -81,8 +89,11 @@ header {
   letter-spacing: 0.05em;
 }
 
-/*: Ancho mayores a 768px  (iPads, laptops y PCs) */
+/*: Ancho mayores a 768px  */
 @media screen and (min-width: 768px) {
+  /* body {
+          background: teal;
+        } */
   header {
     padding: 0.625em 2em;
   }
@@ -91,18 +102,21 @@ header {
   }
 }
 
-/*: Ancho entre 414px y 500px  (viewport mínimo del browser) */
+/*> Ancho entre 414px y 500px  */
 @media screen and (min-width: 414px) and (max-width: 500px) {
+  /* body {
+          background: violet;
+        } */
   header {
     padding: 0.625em 1em;
   }
 }
 
-/*: Ancho menores a 414px (smartphones) */
+/*! Ancho menores a 414px  */
 @media screen and (max-width: 414px) {
-  :root {
-    --header-height: 8.5rem;
-  }
+  /* body {
+          background: tan;
+        } */
   header {
     padding: 0.625em 1em;
   }

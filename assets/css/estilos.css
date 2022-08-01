@@ -28,7 +28,7 @@ html {
 .descargar {
   flex: 1;
   cursor: pointer;
-  text-align: center; 
+  text-align: center;
 }
 .audio {
   flex: 3;
@@ -41,4 +41,10 @@ html {
   margin-top: 50px;
   width: 100%;
   gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    height: 100%;
+  }
 }
